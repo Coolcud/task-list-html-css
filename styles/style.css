@@ -1,0 +1,21 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+    animation-name: example;
+    animation-duration: 5s;
+
+}
+
+@keyframes example {
+    from {background-color: aquamarine;}
+    to {background-color: yellow;}
+}
+
+.goal {
+    list-style-type: none;
+}
+
+#urgent {
+    color: red;
+}
